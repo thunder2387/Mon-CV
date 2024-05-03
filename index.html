@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cette page web représente mon Curiculum Vitae">
-    <link rel="shortcut icon" href="./images/cv.png" type="Icone de la page web représentant un Curiculum Vitae ">
+    <link rel="icon" href="./images/cv.png" type="image/png">
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <link rel="stylesheet" href="./assets/CSS/style-part.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,18 +16,19 @@
     <header><!--Haut de page-->
         <a href="./images/ma_photo.jpg" class="ma_photo" target="_blank"><img src="./images/ma_photo.jpg" alt="Photo pour mon CV"></a>
         <h1> CONTRE Michel</h1>
-        <h2>Développeur Web junior</h2>
-            <adress>
-                <a href="https://maps.app.goo.gl/CkMRPybi2pqRreus7" class="link" target="_blank">
-                47 Cité de la pigue 
-                23000 Guéret</a>
-                <a href="mailto:m.contre@orange.fr" class="link">michel.contre@yahoo.fr</a>
-                <a href="tel:0667103302" class="link">0604681033</a>
-            </adress>
+        <h2>Développeur Web junior</h2>   
     </header> 
         <main><!--Contenu de la page-->
+            <section class="contact">
+                
+                        <p><a href="https://maps.app.goo.gl/CkMRPybi2pqRreus7" class="link" target="_blank">
+                        47 Cité de la pigue<br>23000 Guéret</a></p>
+                        <p><a href="mailto:m.contre@orange.fr" class="link">michel.contre@yahoo.fr</a></p>
+                        <p><a href="tel:0667103302" class="link">0604681033</a></p>
+                
+            </section>
             <section>
-                <article id="information"><!--partie gauche-->
+                <article class="information"><!--partie gauche-->
                     <h3>A propos</h3>
                     <div id="infotext">
                     <p>Je me prénomme Michel. Depuis mon adolescence je suis un passionné du domaine de l'informatique.
@@ -50,24 +51,24 @@
                 </article>
                     <article id="experience"><!--partie droite-->
                         <h3>Expériences professionnelles</h3>
-                            <h4 class="lien">Conducteur de ligne à Saint-Gobain Eurocoustic</h4>
-                            <p>Du 01 Novembre 2019 à aujourd'hui</p>
+                            <p><span class="lien"><strong>Conducteur de ligne à Saint-Gobain Eurocoustic</strong></span></p>
+                            <p>Du <time datetime="2019-11-01">01 Novembre 2019</time> à aujourd'hui</p>
                                 <ul>
                                     <li>Surveille et assure le pilotage de la ligne et décide, lors d’un incident, des actions correctives à entreprendre en concertation avec le chef de poste</li>
                                     <li>Travaille en étroite collaboration avec le fileur et le contrôleur pour optimiser les réglages de la ligne afind’atteindre les spécifications de qualité du produit  </li>
                                     <li>Organise et contrôle la coordination des activités du conducteur de fin de ligne, des caristes/opérateurs voile durant la production</li>
                                     <li>Saisit les données de process et de production sur les supports en vigueur tel que SAP et SPAGEL</li>
                                 </ul>
-                            <h4 class="lien">Conducteur Fin de ligne à Saint-Gobain Eurocoustic</h4>
-                            <p>Du 01 Janvier 2017 au 31 Octobre 2019</p>
+                            <p><span class="lien"><strong>Conducteur Fin de ligne à Saint-Gobain Eurocoustic</strong></span></p>
+                            <p>Du <time datetime="2017-01-01">01 Janvier 2017</time> au <time datetime="2019-10-31">31 Octobre 2019</time></p>
                                 <ul>
                                     <li>Prend connaissance des programmes de fabrication (les campagnes) et prépare les équipements enconséquence</li>
                                     <li>Approvisionne les bobines de film de housse en lien avec le cariste, les palettes et assure leurs mises en place dans les différentes machines suivant les campagnes planifiées et les cadences de ligne</li>
                                     <li>Surveille le bon fonctionnement de la ligne et informe l’électromécanicien en cas de besoin</li>
                                     <li>Modifie les réglages en cas de changement de campagne</li>
                                 </ul>
-                            <h4 class="lien">Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</h4>
-                            <p>Du 01 Mars 2007 au 31 Décembre 2016</p>
+                            <p><span class="lien"><strong>Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</strong></span></p>
+                            <p>Du <time datetime="2007-03-01">01 Mars 2007</time> au <time datetime="2016-12-31">31 Décembre 2016</time></p>
                                 <ul>
                                     <li>Approvisionne les bobines de voiles pour les campagnes planifiées et met en place les bobines sur l'installation</li>
                                     <li>Alimente et rince après utilisation les bacs d’encollage liant</li>
@@ -76,25 +77,25 @@
                                     <li>Reporte sur les supports en vigueur les quantités de palettes produites</li>
                                     <li>Veille au bon fonctionnement de la housseuse, de l’étiqueteuse palette, signale toute anomalie et aide au changement de bobine et à toute intervention sur la zone</li>
                                 </ul>
-                            <h4 class="lien">Diverses missions d'intérim pour Manpower</h4>
-                            <p>Du 01 Décembre 2005 au 28 Février 2007</p>
+                            <p><span  class="lien"><strong>Diverses missions d'intérim pour Manpower</strong></span></p>
+                            <p>Du <time datetime="2005-12-01">01 Décembre 2005</time> au <time datetime="2007-02-28">28 Février 2007</time></p>
                                 <ul>
                                     <li>Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</li>
                                     <li>Manutentionnaire à Saint-Gobain Eurocoustic</li>
                                     <li>Manutentionnaire à France Fermeture</li>
                                 </ul>
                         <h3>Diplômes/Formations</h3>
-                                <h4 class="lien"> Sauveteur Secouriste du travail</h4>
-                                    <p>Du 20 Mars 2023 au 21 Mars 2023</p>  
+                                <p><span  class="lien"><strong>Sauveteur Secouriste du travail</strong></span></p>
+                                    <p>Du <time datetime="2023-03-20">20 Mars 2023</time> au <time datetime="2023-03-21">21 Mars 2023</time></p>  
                                     <p>APAVE</p>  
-                                <h4 class="lien"> CACES Chariots Elevateur Catégorie 3 et 5</h4>
-                                    <p>Du 10 Avril 2006 au 15 Avril 2006</p>  
+                                <p><span  class="lien"><strong>CACES Chariots Elevateur Catégorie 3 et 5</strong></span></p>
+                                    <p>Du <time datetime="2006-04-10">10 Avril 2006</time> au <time datetime="2006-04-15">15 Avril 2006</time></p>  
                                     <p>AFTIM Limoges</p> 
-                                <h4 class="lien"> CAP Installation et équipement électrique</h4>
-                                    <p>Du 01 Septembre 2003 au 30 Juin 2005</p>  
+                                <p><span  class="lien"><strong>CAP Installation et équipement électrique</strong></span></p>
+                                    <p>Du <time datetime="2003-09-01">01 Septembre 2003</time> au <time datetime="2005-06-30">30 Juin 2005</time></p>  
                                     <p>Lycée Louis Gaston Roussillat</p>  
-                                <h4 class="lien"> Diplôme nationnal du Brevet</h4>
-                                    <p>Du 01 Septembre 1999 au 30 Juin 2003</p>  
+                                <p><span class="lien"><strong>Diplôme nationnal du Brevet</strong></span></p>
+                                    <p>Du <time datetime="1999-09-01">01 Septembre 1999</time> au <time datetime="2003-06-30">30 Juin 2003</time></p>  
                                     <p>Collège Françoise Dolto</p>
                         <h3>Compétences</h3>
                                 <ul>
