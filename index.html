@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/style-part.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/style-part.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,22 +12,25 @@
 </head>
 <body>
     <header><!--Haut de page-->
-        <img src="./images/ma photo.jpg" alt="ma photo">
+        <a href="./images/ma photo.jpg" class="ma_photo" target="_blank"><img src="./images/ma photo.jpg" alt="ma photo"></a>
         <h1> CONTRE Michel</h1>
         <h2>Développeur Web junior</h2>
     </header> 
         <main><!--Contenu de la page-->
             <section id="contact">
-                    <p><a href="https://maps.app.goo.gl/CkMRPybi2pqRreus7" target="_blank">
+                    <p><a href="https://maps.app.goo.gl/CkMRPybi2pqRreus7" class="link" target="_blank">
                     47 Cité de la pigue <br />23000 Guéret</a></p>
-                    <p><a href="mailto:m.contre@orange.fr">michel.contre@yahoo.fr</a></p>
-                    <p><a href="tel:0667103302">0604681033</a></p>
+                    <p><a href="mailto:m.contre@orange.fr" class="link">michel.contre@yahoo.fr</a></p>
+                    <p><a href="tel:0667103302" class="link">0604681033</a></p>
             </section>
                 <section>
                 <article id="information"><!--partie gauche-->
                     <h3>A propos</h3>
                     <div id="infotext">
-                    <p>Je m'appelle Michel, j'ai 36 ans et est passionné d'informatique depuis l'adolescence. Entre les systèmes d'exploitations, logiciels, il me manquait une corde à mon arc et le développement web fut mon défi.</p>
+                    <p>Je me prénomme Michel. Depuis mon adolescence je suis un passionné du domaine de l'informatique. </br>
+                    Bien qu'ayant des connaissances et des compétences concernant les systèmes d'exploitations et diverses logiciels, je ressentais le besoin d'aller encore plus l’opération pour m'enrichir personnellement. </br>
+                    Il m'est alors venu comme une évidence, qu'à 36ans aujourd'hui, il était temps de faire développeur Web. Et quel défi stimulant !! car je suis persuadé qu'avec cette nouvelle
+                    corde à mon arc, je serai alors pleinement épanouis dans un secteur d'activité qui me tient particulièrement à coeur.</p>
                     </div>
                     <h3>Langues parlées</h3>
                         <ul>
@@ -44,7 +47,7 @@
                 </article>
                     <article id="experience"><!--partie droite-->
                         <h3>Expériences professionnelles</h3>
-                            <h4>Conducteur de ligne à Saint-Gobain Eurocoustic</h4>
+                            <h4 class="lien">Conducteur de ligne à Saint-Gobain Eurocoustic</h4>
                             <p>Du 01 Novembre 2019 à aujourd'hui</p>
                                 <ul>
                                     <li>Surveille et assure le pilotage de la ligne et décide, lors d’un incident, des actions correctives à entreprendre en concertation avec le chef de poste</li>
@@ -52,7 +55,7 @@
                                     <li>Organise et contrôle la coordination des activités du conducteur de fin de ligne, des caristes/opérateurs voile durant la production</li>
                                     <li>Saisit les données de process et de production sur les supports en vigueur tel que SAP et SPAGEL</li>
                                 </ul>
-                            <h4>Conducteur Fin de ligne à Saint-Gobain Eurocoustic</h4>
+                            <h4 class="lien">Conducteur Fin de ligne à Saint-Gobain Eurocoustic</h4>
                             <p>Du 01 Janvier 2017 au 31 Octobre 2019</p>
                                 <ul>
                                     <li>Prend connaissance des programmes de fabrication (les campagnes) et prépare les équipements enconséquence</li>
@@ -60,7 +63,7 @@
                                     <li>Surveille le bon fonctionnement de la ligne et informe l’électromécanicien en cas de besoin</li>
                                     <li>Modifie les réglages en cas de changement de campagne</li>
                                 </ul>
-                            <h4>Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</h4>
+                            <h4 class="lien">Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</h4>
                             <p>Du 01 Mars 2007 au 31 Décembre 2016</p>
                                 <ul>
                                     <li>Approvisionne les bobines de voiles pour les campagnes planifiées et met en place les bobines sur l'installation</li>
@@ -70,7 +73,7 @@
                                     <li>Reporte sur les supports en vigueur les quantités de palettes produites</li>
                                     <li>Veille au bon fonctionnement de la housseuse, de l’étiqueteuse palette, signale toute anomalie et aide au changement de bobine et à toute intervention sur la zone</li>
                                 </ul>
-                            <h4>Diverses missions d'intérim pour Manpower</h4>
+                            <h4 class="lien">Diverses missions d'intérim pour Manpower</h4>
                             <p>Du 01 Décembre 2005 au 28 Février 2007</p>
                                 <ul>
                                     <li>Cariste/Opérateur Voile à Saint-Gobain Eurocoustic</li>
@@ -78,33 +81,34 @@
                                     <li>Manutentionnaire à France Fermeture</li>
                                 </ul>
                         <h3>Diplômes/Formations</h3>
-                            <h4> Sauveteur Secouriste du travail</h4>
-                                <p>Du 20 Mars 2023 au 21 Mars 2023</p>  
-                                <p>APAVE</p>  
-                            <h4> CACES Chariots Elevateur Catégorie 3 et 5</h4>
-                                <p>Du 10 Avril 2006 au 15 Avril 2006</p>  
-                                <p>AFTIM Limoges</p> 
-                            <h4> CAP Installation et équipement électrique</h4>
-                                <p>Du 01 Septembre 2003 au 30 Juin 2005</p>  
-                                <p>Lycée Louis Gaston Roussillat</p>  
-                            <h4> Diplôme nationnal du Brevet</h4>
-                                <p>Du 01 Septembre 1999 au 30 Juin 2003</p>  
-                                <p>Collège Françoise Dolto</p>  
+                                <h4 class="lien"> Sauveteur Secouriste du travail</h4>
+                                    <p>Du 20 Mars 2023 au 21 Mars 2023</p>  
+                                    <p>APAVE</p>  
+                                <h4 class="lien"> CACES Chariots Elevateur Catégorie 3 et 5</h4>
+                                    <p>Du 10 Avril 2006 au 15 Avril 2006</p>  
+                                    <p>AFTIM Limoges</p> 
+                                <h4 class="lien"> CAP Installation et équipement électrique</h4>
+                                    <p>Du 01 Septembre 2003 au 30 Juin 2005</p>  
+                                    <p>Lycée Louis Gaston Roussillat</p>  
+                                <h4 class="lien"> Diplôme nationnal du Brevet</h4>
+                                    <p>Du 01 Septembre 1999 au 30 Juin 2003</p>  
+                                    <p>Collège Françoise Dolto</p>
                         <h3>Compétences</h3>
                                 <ul>
-                                    <li>HTML5 - Débutant</li>
-                                    <li>CSS3 - Débutant</li>
-                                    <li>GitHub - Débutant</li>
-                                    <li>VBA - Intermédiaire</li>
-                                    <li>Système d'exploitation Windows - Intermédiaire</li>
-                                    <li>Suite Office - Intermédiaire</li>
+                                    <li class="lien">HTML5 - Débutant</li>
+                                    <li class="lien">CSS3 - Débutant</li>
+                                    <li class="lien">GitHub - Débutant</li>
+                                    <li class="lien">VBA - Intermédiaire</li>
+                                    <li class="lien">Système d'exploitation Windows - Intermédiaire</li>
+                                    <li class="lien">Suite Office - Intermédiaire</li>
                                 </ul>
                     </article>
                 </section>
         </main> 
             <footer><!--Bas de page-->
-                <img src="./images/linkedin.png" alt="linkedin">
-                <img src="./images/github.png" alt="GitHub">
+                    <a href="https://fr.linkedin.com/in/michel-contre-94a012207" target="_blank"><img src="./images/linkedin.png" class="rs" alt="linkedin"></a>
+                    <a href="https://www.facebook.com/michel.contre.1/" target="_blank"><img src="./images/facebook.png" class="rs" alt="facebook"></a>
+                    <a href="https://github.com/thunder2387" target="_blank"><img src="./images/github.png" class="rs" alt="GitHub"></a>
                 <p>Dernière mise à jour le 02 Mai 2024</p>
             </footer>
 </body>
