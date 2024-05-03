@@ -3,22 +3,21 @@ body{
   border-right-style: solid;
   border-right-width: 3px;
   margin: 0px auto;
+  box-sizing: border-box;
 }
 header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 header img{
   width: 200px;
   height: 200px;
-  border-radius: 500px 500px 500px 500px;
+  border-radius: 50%;
   box-shadow: 1px 1px 50px #f73331;
 }
-#contact{
+.contact{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
@@ -28,7 +27,7 @@ section{
   flex-direction: row;
   justify-content: space-around;
 }
-#information{
+.information{
   width: 500px;
   padding-right: 30px;
 }
@@ -36,7 +35,7 @@ section{
   padding-left: 30px;
   padding-right: 20px;
 }
-footer img{
+.rs{
   width: 40px;
   height: 40px;
 }
